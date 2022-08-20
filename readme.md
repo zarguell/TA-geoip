@@ -1,3 +1,11 @@
+[![Publish GeoLite.mmdb](https://github.com/zarguell/TA-geoip/actions/workflows/GeoLite.yml/badge.svg)](https://github.com/zarguell/TA-geoip/actions/workflows/GeoLite.yml)
+
+# TA-geoip
+
+Scrape latest free geolite (strategy from [P3TERX/GeoLite.mmdb](https://github.com/P3TERX/GeoLite.mmdb)), then add to bin folder of app for packaging to Splunk, and deployment through deployment server to a distributed environment.
+
+## Original upstream repo:
+
 # TA-geoip : Splunk Add-on for containing an updated copy of the free Maxmind GeoIP Database
 
 Author: George Starcher (starcher)
