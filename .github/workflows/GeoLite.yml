@@ -60,6 +60,6 @@ jobs:
         repo_token: "${{ secrets.GITHUB_TOKEN }}"
         automatic_release_tag: "latest"
         prerelease: false
-        title: "Data Update ${{ steps.date.outputs.date }}"
+        title: "TA-geoip-${{ steps.date.outputs.date }}"
         files: |
           TA-geoip.zip
