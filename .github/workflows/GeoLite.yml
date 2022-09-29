@@ -52,7 +52,7 @@ jobs:
       with:
         type: 'zip'
         filename: 'TA-geoip.zip'
-        exclusions: '*.git* /*node_modules/* .editorconfig'
+        exclusions: '*.git* readme.md'
 
     - name: create release
       uses: "marvinpinto/action-automatic-releases@latest"
